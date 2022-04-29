@@ -1,0 +1,88 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .contact form input, .contact form input {
+        margin-bottom: 20px;
+    }
+    .contact form input, .contact form textarea {
+        margin-top: 0;
+    }
+
+    .portfolio-items .product {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .portfolio-items-button {
+        display: block !important;
+    }
+    .portfolio-items-button button {
+        width: 100%;
+        margin-bottom: 2px;
+        margin-left: 0;
+    }
+
+    .slider-banner h1 {
+        font-size: 40px;
+    }
+
+    .slider-banner p {
+        font-size: 20px;
+    }
+
+    .contact-information {
+        margin-top: 20px;
+    }
+
+    .contact-information p {
+        margin-top: 30px !important
+    }
+
+    footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contact form input, .contact form input {
+        margin-bottom: 20px;
+    }
+    .contact form input, .contact form textarea {
+        margin-top: 0;
+    }
+
+    .portfolio-items .product {
+        width: 123px;
+    }
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contact form input, .contact form input {
+        margin-bottom: 20px;
+    }
+    .contact form input, .contact form textarea {
+        margin-top: 0;
+    }
+
+    .portfolio-items .product {
+        width: 123px;
+    }
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .portfolio-items .product {
+        width: 126px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
